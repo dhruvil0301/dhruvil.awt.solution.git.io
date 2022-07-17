@@ -1,0 +1,216 @@
+body{
+        background-image: url("file:///home/sokrates/Downloads/20220610_121219.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 340px; 
+}
+#mainnavigation{
+    display: flex;
+}
+.container{
+    display: flex; padding: 20px;
+}
+#nav ul{
+    display: flex;}
+
+ul li{
+display: flex; padding: 30px; 
+}
+
+#nav a:hover{
+    text-decoration: none; color: brown;
+}
+.header{
+margin-bottom: 20px; padding: 5px;
+}
+h1{
+    text-align: center; 
+}
+ h2:hover{
+color: black; 
+}
+.hidden {
+    text-align: center ; display:  none; color: yellowgreen; list-style: none;
+}
+h2:hover + .hidden{
+    display: block;
+    position: absolute;
+    width: 100%;
+    padding: 2px;
+}
+h4{     
+    text-align: center; margin-top: 10px;
+    
+}
+
+p{
+    text-align: center;
+}
+.concept{
+ background-color:white; text-align: center; 
+}
+.concept h1{
+text-decoration-line: underline;text-decoration-color: yellow;
+}
+.section1{
+    display: flex; flex-direction: column; width: 25%; border-style: inset;
+}
+.section{
+    display: flex; border-style: solid;border-color: black; background-color: white; background-size: auto;
+}
+.section2{
+    display: flex;flex-direction: column;width: 25%; border-color: black; border-style: inset;
+}
+.section3{
+    display:flex;flex-direction: column;width:25% ;border-style:inset
+} 
+.section4{
+    display: flex;flex-direction: column;width:25%; border-color: black ;border-style: inset; 
+}
+.info{
+    display: flex; margin-top: 100px;
+}
+.clients{
+    display:flex;flex-direction: column; background-color: rgba(212, 226, 226, 0.795);
+width: 25%;}
+.awards{
+    display:flex;flex-direction: column; background-color: gray;
+width: 25%;}
+.hoursworked{
+    display: flex;flex-direction: column;background-color: rgba(212, 226, 226, 0.795);
+width: 25%;}
+.project{
+    display: flex;flex-direction: column;background-color: gray;width: 25%;
+}
+.process{
+    background-color: beige; border-radius: 20px;
+}
+.process h1{
+    text-decoration-line: underline; text-decoration-color: yellow;
+}
+.mainprocess{
+   justify-content: space-between;
+    background-color: white; display: flex; border-radius: 4px;
+    border-style: ridge; text-align: center;
+}
+
+.mainprocess .box{
+    position: relative;
+   width: 350px;
+    padding: 20px; 
+    box-sizing: border-box;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    border-radius: 4px;
+overflow: hidden;
+text-align: center;}
+.mainprocess .box .icon {
+position: relative;
+width: 80px;
+height:80px;
+border-radius: 50%;
+background-color: #000;
+color: blue;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0px auto;
+transition: 1s;
+}
+.mainprocess .box:nth-child(1) .icon
+{
+ box-shadow: 0 0 0 0 green;
+ background: green;  
+}
+.mainprocess .box:nth-child(1):hover .icon
+{
+ box-shadow: 0 0 0 400px  green;
+ background: yellow;  
+}
+.mainprocess .box:nth-child(2) .icon
+{
+ box-shadow: 0 0 0 0 green;
+ background: green;  
+}
+.mainprocess .box:nth-child(2):hover .icon
+{
+ box-shadow: 0 0 0 400px  green;
+ background: yellow;  
+}
+.mainprocess .box:nth-child(3) .icon
+{
+ box-shadow: 0 0 0 0 green;
+ background: green;  
+}
+.mainprocess .box:nth-child(3):hover .icon
+{
+ box-shadow: 0 0 0 400px  green;
+ background: yellow;  
+}
+.mainprocess .box:nth-child(4) .icon
+{
+ box-shadow: 0 0 0 0 green;
+ background: green;  
+}
+.mainprocess .box:nth-child(4):hover .icon
+{
+ box-shadow: 0 0 0 400px  green;
+ background: yellow;  
+}
+
+
+
+
+.mainfooter{
+    display: flex; background-color: black;
+}
+.company{
+display: flex;flex-direction: column; color: white; width:33.4%; 
+ }
+.company h4{
+    text-decoration-line: underline; text-decoration-color: goldenrod
+}
+.navi{
+ flex-direction: column; color: white; width:33.4%; margin-left: 100px;
+}
+.navi h4{
+    text-decoration: underline; text-decoration-color: goldenrod; color: white;
+}
+ul li{
+    text-decoration: none; flex-direction: column; list-style: none; color: white;text-decoration: none; border-bottom: none; text-align: center;
+}
+.navi a:hover{
+ text-decoration: none ;color:yellow; 
+ ;
+}
+.mainsocial{
+    display: flex; flex-direction: column; color: white; width: 33.4%; margin-left:200px;
+}
+.mainsocial h4{
+    text-decoration-line: underline; text-decoration-color: goldenrod;
+}
+.social{
+    display: flex; padding:10px; color: white; 
+}
+.facebook{
+    color: white; display: flex; width:25%;
+}
+.twitter{
+    color: white; display: flex; width:25%;
+}
+.insta{
+    color: white; display: flex; width:25%;
+}
+.link{
+    color: white; display: flex; width:25%;
+}
+.contact{ 
+ color: white; display: flex;  flex-direction: column;
+}
+p:hover{
+border-color: yellow;
+}
+.end h3{
+    color: white; text-align: center; background-color: black;
+}
+.bg{
+    background-color: black;
+}

@@ -1,0 +1,108 @@
+body{
+    background-image: url("file:///home/sokrates/Downloads/20220610_121219.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%  152px; 
+}
+#mainnavigation{
+display: flex;
+}
+.container{
+display: flex; padding: 20px;
+}
+#nav ul{
+display: flex;}
+
+ul li{
+display: flex; padding: 30px; 
+}
+h1{
+    text-decoration-line: underline; text-underline-position: center; text-decoration-color: yellow ;
+
+}
+ .post1 .post p{
+    color:blue;
+}
+.blog1{
+    display: flex; width:100%; background-color:black;
+}
+.post{
+    display: flex; flex-direction: column; width:50%; border-left-width: 15px; border-left-color:yellowgreen;
+    border-left-style:outset;
+}
+
+.blog2{
+    display: flex; width:100%; background-color:green;
+}
+.text1{
+    color:green;
+}
+.text2{
+    color:black;
+}
+.show,
+     .show-1 {
+            display: inline;
+        }
+
+.hide,
+.hide-1,
+.hide-2 {
+        display: none;
+}
+
+
+.mainfooter{
+    display: flex;
+}
+.company{
+display: flex;flex-direction: column; color: white; width:33.33%
+}
+.company h4{
+    text-decoration-line: underline; text-decoration-color: goldenrod
+}
+.navi{
+ flex-direction: column; color: white; width:33.33%;
+}
+.navi h4{
+    text-decoration: underline; text-decoration-color: goldenrod
+}
+ul li{
+    text-decoration: none; flex-direction: column; list-style: none; color: white;text-decoration: none; border-bottom: none;
+}
+a:hover{
+ text-decoration: none ;color:yellow; 
+ ;
+}
+.mainsocial{
+    display: flex; flex-direction: column; color: white; width: 33.33%;
+}
+.mainsocial h4{
+    text-decoration-line: underline; text-decoration-color: goldenrod;
+}
+.social{
+    display: flex; padding:10px; color:white;  
+}
+.facebook{
+    color: white; display: flex; width:25%;
+}
+.twitter{
+    color: white; display: flex; width:25%;
+}
+.insta{
+    color: white; display: flex; width:25%;
+}
+.link{
+    color: white; display: flex; width:25%;
+}
+.contact{ 
+    color: white; display: flex;  flex-direction: column;
+}
+p:hover{
+border-color: yellow;
+}
+.end{
+    color: white; text-align: center;
+}
+.b{
+    background-color: black;
+}

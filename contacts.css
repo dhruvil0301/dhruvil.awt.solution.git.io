@@ -1,0 +1,102 @@
+body{
+    background-image: url("file:///home/sokrates/Downloads/20220610_121219.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%  152px; 
+}
+#mainnavigation{
+display: flex;
+}
+.container{
+display: flex; padding: 20px;
+}
+#nav ul{
+display: flex;}
+
+ul li{
+display: flex; padding: 30px; 
+}
+h1{
+    text-decoration-line: underline; text-underline-position: center; text-decoration-color: yellow ;
+
+}
+.b{
+    background-color: black; 
+}
+.address .i{
+    color: white;
+}
+.address h1{
+    color: white;
+}
+.address P{
+    color: white;
+}
+.address{
+    background-color: black; margin:0px 0px;
+}
+.t11{
+    background-color:rgb(236, 196, 16);
+}
+.text1{
+    background-color: rgb(236, 196, 16); height:200px ; width:100% ; top:0px; right: 0px; }
+.text h1{
+    text-align: center; margin-top: 100px;
+}
+.mainfooter{
+    display: flex; background-color: black;
+}
+.company{
+display: flex;flex-direction: column; color: white; width:33.4%; 
+ }
+.company h4{
+    text-decoration-line: underline; text-decoration-color: goldenrod
+}
+.navi{
+ flex-direction: column; color: white; width:33.4%; margin-left: 100px;
+}
+.navi h4{
+    text-decoration: underline; text-decoration-color: goldenrod; color: white;
+}
+ul li{
+    text-decoration: none; flex-direction: column; list-style: none; color: white;text-decoration: none; border-bottom: none; text-align: center;
+}
+.navi a:hover{
+ text-decoration: none ;color:yellow; 
+ ;
+}
+.mainsocial{
+    display: flex; flex-direction: column; color: white; width: 33.4%; margin-left:200px;
+}
+.mainsocial h4{
+    text-decoration-line: underline; text-decoration-color: goldenrod;
+}
+.social{
+    display: flex; padding:10px; color: white; 
+}
+.facebook{
+    color: white; display: flex; width:25%;
+}
+.twitter{
+    color: white; display: flex; width:25%;
+}
+.insta{
+    color: white; display: flex; width:25%;
+}
+.link{
+    color: white; display: flex; width:25%;
+}
+.contact{ 
+ color: white; display: flex;  flex-direction: column;
+}
+p:hover{
+border-color: yellow;
+}
+.end h3{
+    color: white; text-align: center; background-color: black;
+}
+.bg{
+    background-color: black;
+}
+a:hover{
+    color: yellow;
+}
